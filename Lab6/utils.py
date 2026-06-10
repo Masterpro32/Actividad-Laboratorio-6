@@ -32,7 +32,7 @@ def promedio(numero1, numero2):
     return resultado
 
   #Jeanpier: Función Validar Email
-  def validar_email(correo):
+def validar_email(correo):
     """
     Verifica si una cadena de texto tiene formato de correo electrónico.
 
