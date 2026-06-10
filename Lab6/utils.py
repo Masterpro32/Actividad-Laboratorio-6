@@ -1,3 +1,7 @@
+import re
+
+
+#Diego: Función de bienvenida
 def bienvenida():
     """
     Muestra un mensaje inicial de bienvenida al usuario.
@@ -11,10 +15,24 @@ def bienvenida():
     # Mensaje que se muestra al iniciar el programa
     print("Bienvenido al programa de funciones reutilizables.")
 
+#Harol: Función promedio
+def promedio(numero1, numero2):
+    """
+    Calcula el promedio de dos números ingresados.
 
-import re
+    Parámetros:
+        numero1 (float): Primer número.
+        numero2 (float): Segundo número.
 
-def validar_email(correo):
+    Retorno:
+        float: Promedio de los dos números.
+    """
+    # Se suman los dos números y se divide entre 2 para obtener el promedio
+    resultado = (numero1 + numero2) / 2
+    return resultado
+
+  #Jeanpier: Función Validar Email
+  def validar_email(correo):
     """
     Verifica si una cadena de texto tiene formato de correo electrónico.
 
