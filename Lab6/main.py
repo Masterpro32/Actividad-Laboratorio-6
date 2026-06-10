@@ -30,6 +30,7 @@ def main():
     except ValueError:
         # Mensaje que aparece si el usuario ingresa texto en lugar de números
         print("Error: Debe ingresar valores numéricos.")
+    #Victoria:
         print("\n--- Validación de correo electrónico ---")
 
     # Se solicita un correo para validar su formato
