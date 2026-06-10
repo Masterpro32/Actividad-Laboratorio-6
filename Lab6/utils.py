@@ -1,3 +1,4 @@
+#Diego: Función de bienvenida
 def bienvenida():
     """
     Muestra un mensaje inicial de bienvenida al usuario.
