@@ -30,3 +30,18 @@ def main():
     except ValueError:
         # Mensaje que aparece si el usuario ingresa texto en lugar de números
         print("Error: Debe ingresar valores numéricos.")
+        print("\n--- Validación de correo electrónico ---")
+
+    # Se solicita un correo para validar su formato
+    correo = input("Ingrese un correo electrónico: ")
+
+    # Se verifica si el correo ingresado cumple con el formato correcto
+    if validar_email(correo):
+        print("El correo ingresado es válido.")
+    else:
+        print("El correo ingresado no es válido.")
+
+
+# Esta condición permite ejecutar el programa solo cuando se corre este archivo directamente
+if _name_ == "_main_":
+    main()
