@@ -44,5 +44,5 @@ def main():
 
 
 # Esta condición permite ejecutar el programa solo cuando se corre este archivo directamente
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
